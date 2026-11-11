@@ -1,0 +1,17 @@
+# Configurações com credenciais reais
+config/config.php
+config/database.php
+
+# Uploads de usuários (arquivos grandes, não são código)
+uploads/estudio/
+
+# Scripts temporários
+patch_events.php
+patch_events_delete.php
+gh_push.php
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
