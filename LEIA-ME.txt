@@ -1,0 +1,14 @@
+ATUALIZAÇÃO DE SINCRONIZAÇÃO E DIAGNÓSTICO
+
+Substitua os arquivos abaixo na pasta public_html, preservando os caminhos:
+- event.php
+- api/sync_event_campaigns.php
+- cron/sync_campaigns.php
+
+Faça backup dos arquivos atuais antes de substituir. A alteração repete até
+três vezes falhas temporárias da Meta, indica campanhas que vieram sem linhas
+de Insights e exibe no painel os detalhes de uma sincronização parcial.
+
+Após enviar, abra o evento e clique em “Sincronizar gastos”. Se ainda houver
+campanhas sem gasto, copie o texto completo exibido abaixo do botão: ele vai
+mostrar quais campanhas não retornaram dados e qualquer erro da Meta.
