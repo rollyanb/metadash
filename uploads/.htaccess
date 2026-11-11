@@ -1,0 +1,8 @@
+Options -Indexes
+# Bloqueia acesso direto a uploads — arquivos servidos apenas via PHP autenticado
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>
